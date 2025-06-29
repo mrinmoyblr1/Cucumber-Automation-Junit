@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="33.994" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-29T18:44:22.058911Z">
+<testcase classname="Search and Place the Order for Products" name="Search Experience for the Product search in both home abd Offers Page - #1.1" time="33.904">
+<system-out><![CDATA[
+Given User is on GreenCart landing Page.....................................passed
+When User searched with shortname Tom and extracted the actual name of the Product.passed
+Then User searched for Tom shortname in the offer page......................passed
+And validate product name in offers page matches with Landing Page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Place the Order for Products" name="Search Experience for the Product search in both home abd Offers Page - #1.1" time="29.893">
+<system-out><![CDATA[
+Given User is on GreenCart landing Page.....................................passed
+When User searched with shortname Tom and extracted the actual name of the Product.passed
+And Added "3" items of the selected product to cart.........................passed
+Then User proceeds to Checkout and validate the Tom items in the checkout page.passed
+And Verify user has ability to enter promo code and place the order.........passed
+]]></system-out>
+</testcase>
+</testsuite>

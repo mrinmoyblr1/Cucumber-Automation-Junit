@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Search and Place the Order for Products #2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.951 s - in Search and Place the Order for Products #2
